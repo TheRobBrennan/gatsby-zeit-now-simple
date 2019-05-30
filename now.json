@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "name": "gatsby-zeit-now-simple",
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@now/static-build",
+      "config": { "distDir": "public" }
+    }
+  ]
+}
