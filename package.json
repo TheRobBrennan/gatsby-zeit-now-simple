@@ -32,7 +32,8 @@
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
     "now-dev": "gatsby develop -p $PORT",
-    "now-build": "npm run build"
+    "now-build": "npm run build",
+    "deploy": "now"
   },
   "repository": {
     "type": "git",
