@@ -1,3 +1,82 @@
+# Welcome
+
+This project has been created to demonstrate how easy it is to develop and deploy a [Gatsby](https://www.gatsbyjs.org) project using [ZEIT Now](https://zeit.co/now).
+
+You can view the [demo](https://gatsby-zeit-now-simple.therobbrennan.now.sh) at [https://gatsby-zeit-now-simple.therobbrennan.now.sh](https://gatsby-zeit-now-simple.therobbrennan.now.sh)
+
+This project assumes you have the [ZEIT Now CLI](https://zeit.co/download) tool installed on your machine - available at [https://zeit.co/download](https://zeit.co/download)
+
+## Local development
+
+To simulate the Now platform locally and run your project:
+
+```sh
+// The ZEIT Now CLI needs to be invoked this way. You will never call the now-dev script directly.
+$ now dev
+
+> Now CLI 15.2.1-canary.4 dev (beta) — https://zeit.co/feedback/dev
+> Setting up 1 Builder
+> Success! Builder setup complete
+⠀
+View GraphiQL, an in-browser IDE, to explore your site's data and schema
+⠀
+  http://localhost:63312/___graphql
+⠀
+Note that the development build is not optimized.
+To create a production build, use npm run build
+⠀
+info ℹ ｢wdm｣:
+info ℹ ｢wdm｣: Compiled successfully.
+
+ WAIT  Compiling...18:58:26
+⠀
+info ℹ ｢wdm｣: Compiling...
+ DONE  Compiled successfully in 58ms18:58:26
+⠀
+info ℹ ｢wdm｣:
+info ℹ ｢wdm｣: Compiled successfully.
+
+^C
+> Stopping `now dev` server
+
+```
+
+See [https://zeit.co/docs/v2/development/basics/](https://zeit.co/docs/v2/development/basics/) for more details on [Development Basics](https://zeit.co/docs/v2/development/basics/).
+
+## Deploy to ZEIT Now
+
+To deploy this project to ZEIT Now:
+
+```sh
+$ now
+
+> Deploying ~/repos/gatsby-zeit-now-simple under therobbrennan
+> Using project gatsby-zeit-now-simple
+> Synced 1 file (6.86KB) [573ms]
+> https://gatsby-zeit-now-simple-1i8d2boos.now.sh [v2] [831ms]
+┌ package.json        Ready               [1m]
+├── 1-5e65615471e89e7a9dd5.js (17.77KB)
+├── 404.html (10.03KB)
+├── 404/index.html (10.01KB)
+├── chunk-map.json (378B)
+├── component---src-pages-404-js-3561fb60fa9f3ab9dca6.js (3.52KB)
+└── 43 output items hidden
+> Ready! Aliased to https://gatsby-zeit-now-simple.therobbrennan.now.sh [in clipboard] [1m]
+
+```
+
+See [https://zeit.co/docs/v2/deployments/basics/](https://gatsby-zeit-now-simple.therobbrennan.now.sh) for more details on [Deployment Basics](https://gatsby-zeit-now-simple.therobbrennan.now.sh)
+
+To run these scripts, simply run `npm run <script_name>` at the root level of this project.
+
+Original tutorial available at [https://zeit.co/guides/deploying-gatsby-with-now](https://zeit.co/guides/deploying-gatsby-with-now)
+
+## BONUS: ZEIT Now examples
+
+Did you know that if you run `now init` you can use any of the examples at [https://github.com/zeit/now-examples](https://github.com/zeit/now-examples) to spin up a new project quickly?
+
+One more thing...You'll notice that there is an example in there for creating an [Advanced MDX-deck](https://github.com/zeit/now-examples/tree/master/mdx-deck-advanced) - an example created by the author of this repo.
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
