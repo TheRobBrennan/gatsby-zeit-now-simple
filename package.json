@@ -28,7 +28,7 @@
   "scripts": {
     "build": "gatsby build",
     "format": "prettier --write src/**/*.{js,jsx}",
-    "start": "npm run now-dev",
+    "start": "now dev",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
     "now-dev": "gatsby develop -p $PORT",
